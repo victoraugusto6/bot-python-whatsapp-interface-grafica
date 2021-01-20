@@ -26,10 +26,10 @@ class TelaPython:
     def iniciar(self):
         while True:
             self.button, self.values = self.janela.Read()
-    
+
             mensagem = self.values['mensagem']
-    
-            metodos.enviarMensagem(mensagem)
+
+            metodos.enviar_mensagem(mensagem)
 
 
 tela = TelaPython()
